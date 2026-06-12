@@ -72,7 +72,7 @@ useEffect(() => {
         {students.map((student) => {
 
                         return (
-                            <div key={student.id} className="bg-[gray] w-20 h-20">
+                            <div key={student.id} className="bg-gray-500 w-20 h-20">
                                 {student.marks < 50 && (
                                     <>
                     <div>name: {student.name}</div>
